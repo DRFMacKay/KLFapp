@@ -3,7 +3,7 @@ a quick app demonstrating an unstyled angular front-end and a nest JS back end
 
 intended to be using minimal additional libraries
 
-at the moment back-end and front-end must be started seperately
+**at the moment back-end and front-end must be started seperately following below**
 
 back-end: 
 navigate to KLFapp/kfl-client 
@@ -17,7 +17,7 @@ enter the following commands:
 npm -i
 ng serve
 
-for assessment 1
+**assessment 1**
 
 you can use the following endpoints for postman
 
@@ -38,12 +38,24 @@ body:{
 "password": string,
 }
 
+User may log in using username and password:
+POST
+localhost:3000/api/users/login
+body:{
+"name": string,
+"password": string,
+}
 
-for assessment 2
+
+**assessment 2**
 
 localhost:4200
+unstyled due to time constraints
+Nav bar at top can be used to switch between pages.
 
-for assessment 3
+at present Admin page not implemented due to time constraints, as well logging in has no effect currently.
+
+**assessment 3**
 
 find below exact code as put into https://www.jdoodle.com/execute-sql-online/
 

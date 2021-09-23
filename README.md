@@ -3,6 +3,8 @@ a quick app demonstrating an unstyled angular front-end and a nest JS back end
 
 intended to be using minimal additional libraries
 
+last minute catch of incidental use of KFL vs KLF in app, will be corrected in theoretical future version with styling patch
+
 **at the moment back-end and front-end must be started seperately following below**
 
 back-end: 

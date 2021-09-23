@@ -33,7 +33,7 @@ Update User Information:
 POST
 localhost:3000/api/users/:id
 body:{
-"id": number,
+"id": integer,
 "name": string,
 "password": string,
 }
